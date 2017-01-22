@@ -1,2 +1,7 @@
 # Velliz.github.io
-Personal description on github
+
+My Personal CV, Bio and Description on GitHub Pages.
+
+Including:
+* Projects
+* Experience
