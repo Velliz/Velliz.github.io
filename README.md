@@ -1,7 +1,3 @@
 # Velliz.github.io
 
-My Personal CV, Bio and Description on GitHub Pages.
-
-Including:
-* Projects
-* Experience
+My Personal info, Projects and Experience on GitHub Pages.
