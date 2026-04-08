@@ -1,6 +1,27 @@
 
 /**** DARK ****/
 
+:root {
+    --card-bg: #25262b;
+    --card-border: #2c2e33;
+    --text-primary: #e9ecef;
+    --text-secondary: #adb5bd;
+    --primary: #0067AC;
+    --accent: #87ae73;
+    --gradient-1: linear-gradient(135deg, #0067AC 0%, #004a80 100%);
+    --gradient-2: linear-gradient(135deg, #87ae73 0%, #6b8f58 100%);
+    --gradient-3: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    --shadow-soft: 0 4px 20px rgba(0, 103, 172, 0.15);
+    --shadow-glow: 0 8px 32px rgba(0, 103, 172, 0.25);
+    --radius: 16px;
+    --radius-sm: 8px;
+}
+
+body {
+    background: linear-gradient(135deg, #1a1b1f 0%, #2d2e33 100%);
+    background-attachment: fixed;
+}
+
 .section-about,
 .section-skills .professional-skills,
 .section-skills .additional-skills,
