@@ -771,8 +771,6 @@ ul {
     position: relative;
     bottom: 40px;
     margin-top: 15px;
-    opacity: 0;
-    transition: all .5s;
 }
 
 .section-portfolio .item-portfolio:hover h3 {
@@ -1365,4 +1363,155 @@ ul {
 
 .section-contact-us .social-links li:hover {
     opacity: 1;
+}
+
+/**** CUSTOM SECTIONS - SKILLS & KEY PROJECTS ****/
+
+.section-skills {
+    margin-bottom: 30px;
+}
+
+.section-skills .icon-experience {
+    display: inline-block;
+    margin-left: 161px;
+    padding: 8px 13px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-soft);
+    border: 1px solid var(--card-border, #3a3b40);
+    background: var(--card-bg, #3a3b40);
+}
+
+.section-skills .all-experience {
+    margin-left: 180px;
+    padding-top: 45px;
+    padding-left: 23px;
+}
+
+.section-skills .experience-content {
+    position: relative;
+    padding: 25px 30px;
+    margin-bottom: 30px;
+    border-radius: var(--radius);
+    background: linear-gradient(145deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%);
+    transition: box-shadow 0.3s ease;
+}
+
+.section-skills .experience-content:hover {
+    box-shadow: var(--shadow-glow);
+}
+
+.section-skills .experience-content::before {
+    content: '';
+    position: absolute;
+    left: 191px;
+    margin-top: -13px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+}
+
+.section-skills .specialty-name {
+    padding: 10px 24px !important;
+    margin-bottom: 15px !important;
+    margin-top: 0 !important;
+    border-radius: 4px !important;
+    background: linear-gradient(135deg, #0487cc 0%, #026299 100%) !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 1.4 !important;
+    width: auto !important;
+    float: none !important;
+}
+
+.section-skills .company-name {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.section-skills .prg-experience {
+    display: block;
+    margin-bottom: 0;
+    line-height: 24px;
+}
+
+.section-portfolio {
+    margin-bottom: 30px;
+}
+
+.section-portfolio .icon-experience {
+    display: inline-block;
+    margin-left: 161px;
+    padding: 8px 13px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-soft);
+    border: 1px solid var(--card-border, #3a3b40);
+    background: var(--card-bg, #3a3b40);
+}
+
+.section-portfolio .all-experience {
+    margin-left: 180px;
+    padding-top: 45px;
+    padding-left: 23px;
+}
+
+.section-portfolio .experience-content {
+    position: relative;
+    padding: 25px 30px;
+    margin-bottom: 30px;
+    border-radius: var(--radius);
+    background: linear-gradient(145deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%);
+    transition: box-shadow 0.3s ease;
+}
+
+.section-portfolio .experience-content:hover {
+    box-shadow: var(--shadow-glow);
+}
+
+.section-portfolio .experience-content::before {
+    content: '';
+    position: absolute;
+    left: 191px;
+    margin-top: -13px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+}
+
+.section-portfolio .specialty-name {
+    padding: 10px 24px !important;
+    margin-top: 0 !important;
+    border-radius: 4px !important;
+    background: linear-gradient(135deg, #00cf95 0%, #00a574 100%) !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 1.4 !important;
+    width: auto !important;
+    float: none !important;
+}
+
+.section-portfolio .company-name {
+    display: block;
+    margin-bottom: 8px;
+    font-style: italic;
+    color: rgba(255,255,255,0.6);
+}
+
+.section-portfolio .prg-experience {
+    display: block;
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+
+.section-portfolio .prg-experience a {
+    color: #00cf95;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.section-portfolio .prg-experience a:hover {
+    color: #0487cc;
 }
