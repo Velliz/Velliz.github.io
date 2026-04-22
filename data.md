@@ -4,12 +4,12 @@ Web & Application developer
 diditvelliz@gmail.com | +62 813-8146-1286 | https://velliz.github.io | Bandung, Indonesia.
 
 PROFESSIONAL SUMMARY
-Senior Full-Stack Software Engineer with over 10 years of experience in designing, developing, and deploying scalable web and mobile applications. Expertise in PHP, JavaScript, and modern backend architectures, complemented by hands-on experience with Go and Java. Proven track record in leading end-to-end product development, building SaaS platforms, and optimizing system performance in Docker-based environments. Passionate about enhancing developer productivity, leveraging AI-assisted coding, and creating maintainable, high-quality systems.
+Senior Full-Stack Software Engineer with over 10 years of experience in designing, developing, and deploying scalable web and mobile applications. Expertise in PHP, JavaScript, C# and modern backend architectures, complemented by hands-on experience with Go and Java. Proven track record in leading end-to-end product development, building SaaS platforms, and optimizing system performance in Docker-based environments. Passionate about enhancing developer productivity, leveraging AI-assisted coding, and creating maintainable, high-quality systems.
 EDUCATION
 Bachelor’s Degree in Information Systems | GPA 3.81 of 4.00
 Universitas Kristen Maranatha - Indonesia
 CORE SKILLS
-Languages: PHP, JavaScript (Node.js), Go, Java
+Languages: PHP, JavaScript (Node.js), Go, C#, C++, Java
 Frameworks & Libraries: Laravel, Puko, Express.js, Next.js, React Native
 Backend & Architecture: REST API, MVC Architecture, Repository Pattern, Microservices, System Design Patterns
 Databases: MySQL, PostgreSQL, SQL Server
